@@ -2,7 +2,7 @@
 this project is not done yet .... this is only for fun .
 this is only the navbar of amazon website i just tried to make navbar realistic 
 
-##features 
+## Features 
 -Responsive Navbar
 -Search Bar
 -Location Section
@@ -12,6 +12,6 @@ this is only the navbar of amazon website i just tried to make navbar realistic
 
 ![Amazon Clone](amazon-navbar.png)
 
-## technologies used 
+## Technologies Used 
 -HTML5
 -CSS3

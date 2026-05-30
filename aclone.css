@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background: #060606;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 2.5px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 113px;
+    margin-left: 10px;
+}
+
+.nav-image {
+    background-image: url(image00.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 45px;
+    width: 100%;
+    background-size: 120%;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 80px;
+    margin-left: 0px;
+    color: white;
+}
+
+.location p {
+    font-size: small;
+    color: #cccc;
+    margin-left: 15px;
+}
+
+.location-logo p {
+    color: white;
+    font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+    margin-left: 0;
+}
+
+.location-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+}
+
+.location-border {
+    border: 1px solid transparent;
+    height: 50px;
+}
+
+.location-border:hover {
+    border: 1px solid white;
+    border-radius: 2.5px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 720px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.search-select {
+    height: 40px;
+    width: 61px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.search-select:focus {
+    border: 3px solid orange;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 44px;
+}
+
+.search-select:hover {
+    background-color: #cdcdcd;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    height: 38px;
+    width: 670px;
+    padding-left: 07px;
+    padding-right: 20px;
+    border: none;
+    outline: none;
+    font-size: small;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search {
+    border: 3px transparent;
+    border-radius: 7px;
+}
+
+.search:has(.search-input:focus) {
+    border: 3px solid orange;
+    border-radius: 7px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #febd68;
+    font-size: larger;
+}
+
+.search-icon:hover {
+    background-color: #f8b053;
+}
+
+.search-icon:focus {
+    border: 3px solid orange;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 44px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 45px;
+    width: 67px;
+}
+
+
+/*.language {
+    border: 1px solid transparent;
+    height: 50px;
+}
+
+.language:hover {
+    border: 1px solid white;
+    border-radius: 2.5px;
+}*/
+
+.language-flag {
+    border: none;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg/960px-Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg.png);
+    background-size: cover;
+    height: 16.2px;
+    width: 21.6px;
+}
+
+.language-text {
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.language-select {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 50px;
+}
